@@ -1,0 +1,11 @@
+{
+  "name": "dbprac",
+  "version": "1.0.0",
+  "description": "\"프로젝트 시작 전, DB연습을 위한 repo\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kim Integer",
+  "license": "MIT"
+}
