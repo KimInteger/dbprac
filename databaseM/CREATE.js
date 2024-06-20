@@ -11,6 +11,12 @@ db.serialize((err)=>{
       return new Error(err.message);
     }
   });
+
+  const stmt = db.prepare(`INSERT INTO product (name, count, price) VALUES (?, ?, ?)`);
+
+  stmt.run('정체불명의 알', 1, 8000);
   
-  
+  stmt.finalize();
 });
+
+db.close();
