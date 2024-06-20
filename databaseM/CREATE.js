@@ -14,7 +14,7 @@ db.serialize((err)=>{
 
   const stmt = db.prepare(`INSERT INTO product (name, count, price) VALUES (?, ?, ?)`);
 
-  stmt.run('정체불명의 알', 1, 8000);
+  stmt.run('천부인', 1, 10000000);
   
   stmt.finalize();
 });
